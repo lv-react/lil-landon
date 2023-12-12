@@ -13,7 +13,7 @@ const Header = () => {
   }
 
   useEffect(() => {
-    // Load Menu Links data from API Gateway
+    // Load data from API Gateway
     loadMenuLinksData();
   }, []);
 

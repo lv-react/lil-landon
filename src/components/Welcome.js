@@ -14,7 +14,7 @@ const Welcome = () => {
   }
 
   useEffect(() => {
-    // Load Menu Links data from API Gateway
+    // Load data from API Gateway
     loadMGalleryImagesData();
   }, []);
 
